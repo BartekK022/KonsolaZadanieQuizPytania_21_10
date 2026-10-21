@@ -1,4 +1,6 @@
-public class Pytanie {
+public abstract class Pytanie {
+
+    public abstract boolean sprawdzOdp(char odp);
     private String trescPytania;
     private String nazwaZdjecia;
     private boolean czyPoprawna;
@@ -9,8 +11,5 @@ public class Pytanie {
         czyPoprawna = false;
     }
 
-//    public static boolean sprawdzOdpowiedz(char odp) {
-//
-//
-//    }
+
 }
